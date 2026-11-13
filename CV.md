@@ -1,14 +1,6 @@
-# Arquitectura del portafolio Mimi
+# Arquitectura del portafolio de Mimi
 
-Yohanan Naomi Zúñiga Jiménez · Arquitectura de información y contenido
-
-Mi portafolio Mimi presenta mi trabajo como diseñadora gráfica a través de proyectos de identidad, empaque, diseño editorial y comunicación tridimensional. Esta arquitectura organiza el contenido, los recursos y la navegación que dan forma a la landing. El sistema visual se especifica por separado en el documento Sistema de diseño Mimi.
-
-La entrega incluye HTML, CSS, JavaScript y recursos locales. CV.md corresponde a esta arquitectura; DESIGN.md y design.html presentan el sistema de diseño. Ambos Word se conservan como archivos editables.
-
-## Propósito y público
-
-Quiero que una persona interesada en colaborar conmigo reconozca mi personalidad, explore mis proyectos y encuentre una forma directa de contactarme. La página está dirigida a posibles clientes, equipos creativos y docentes que revisan mi portafolio académico.
+Yohanan Naomi Zúñiga Jiménez
 
 ## Estructura y navegación
 
@@ -27,7 +19,7 @@ El encabezado permanece visible al desplazarse. En pantallas pequeñas, un botó
 
 A la izquierda aparece el título “¡Hola, soy Naomi. También soy Mimi!”. Debajo: “Soy diseñadora gráfica y transformo ideas en propuestas visuales con personalidad.” y “Mimi es el espacio donde comparto mi trabajo y mi forma de entender el diseño: expresiva, cercana y con atención a los detalles.” Los signos de apertura y cierre de exclamación se muestran en amarillo; el resto del saludo permanece blanco.
 
-A la derecha se muestra la fotografía de Naomi sentada, con ropa multicolor, un asterisco magenta y un marco cyan. El archivo es assets/naomi-inicio.jpg. La imagen mantiene su proporción, sus esquinas redondeadas y una sombra suave.
+A la derecha se muestra la fotografía de Naomi sentada, con ropa multicolor, un asterisco magenta y un marco cyan. El archivo es assets/naomi-inicio-opt.webp. La imagen mantiene su proporción, sus esquinas redondeadas y una sombra suave.
 
 ## Caminos de texto animado
 
@@ -90,7 +82,7 @@ SWAROVSKI | Personaje 3D tiene como concepto “Un personaje que conecta.”. Pr
 
 ## Sobre mí
 
-La fotografía original assets/naomi-original.jpg aparece a la izquierda, sin rotación, con un contorno de círculos. El encuadre se mantiene al cambiar el tamaño de pantalla: la imagen cambia de escala sin desplazarse dentro de la ventana.
+La fotografía original assets/naomi-original-opt.webp aparece a la izquierda, sin rotación, con un contorno de círculos. El encuadre se mantiene al cambiar el tamaño de pantalla: la imagen cambia de escala sin desplazarse dentro de la ventana.
 
 Título: “Sobre mí...” con los puntos suspensivos amarillos. Texto: “Mi nombre es Yohanan Naomi, soy divertida, creativa y amo el color. Soy bailarina de ballet y por lo tanto me expreso a través del movimiento y lo visual, y llevo esa energía a lo que diseño. Los colores intensos, las formas y los pequeños detalles son parte de mi personalidad y de mi trabajo.”
 
