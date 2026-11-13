@@ -1,6 +1,10 @@
-# Mimi
+# Landing CV · Mimi
 
-Portafolio de Yohanan Naomi Zúñiga Jiménez y sistema de diseño de su marca personal.
+**Autora:** Yohanan Naomi Zúñiga Jiménez
+
+Este repositorio reúne el portafolio de diseño gráfico de Mimi y la guía visual de su sistema de diseño. Ambas páginas se adaptan a móvil, tableta y escritorio y están construidas con HTML, CSS y JavaScript. [CV.md](CV.md) contiene la arquitectura y los textos del portafolio; [DESIGN.md](DESIGN.md) describe la identidad, los colores, la tipografía, los espacios, las formas y los componentes de Mimi.
+
+El portafolio presenta proyectos de identidad de marca, diseño de etiquetas, diseño editorial, modelado 3D y motion graphics, además de las secciones Sobre mí y Contacto.
 
 ## Páginas publicadas
 
@@ -11,43 +15,40 @@ Portafolio de Yohanan Naomi Zúñiga Jiménez y sistema de diseño de su marca p
 
 - [CV.md](CV.md)
 - [DESIGN.md](DESIGN.md)
-- [Arquitectura del CV (Word)](documentos/CV.docx)
-- [Sistema de diseño (Word)](documentos/DESIGN.docx)
-- [Tokens del sistema de diseño (JSON)](design-tokens.json)
+- [Arquitectura del CV (PDF)](https://yohanannaomi-tech.github.io/mimi_landing/documentos/CV.pdf)
+- [Sistema de diseño (PDF)](https://yohanannaomi-tech.github.io/mimi_landing/documentos/DESIGN.pdf)
+- [Arquitectura del CV (Word editable)](documentos/CV.docx)
+- [Sistema de diseño (Word editable)](documentos/DESIGN.docx)
 
-## Documento a Markdown y guía visual
+## Contenido del repositorio
 
-Los Word son editables. Para convertirlos de nuevo y actualizar la guía:
+- [index.html](index.html) — landing del CV y portafolio.
+- [design.html](design.html) — guía visual del sistema de diseño.
+- [style.css](style.css) — estilos y adaptación del portafolio a distintos tamaños de pantalla.
+- [app.js](app.js) — fichas de proyectos, loops animados, menú y estela del cursor.
+- [design.css](design.css) — estilos del sistema de diseño.
+- [design.js](design.js) — ejemplos interactivos y copia de colores de la guía.
+- [fonts.css](fonts.css) — carga local de Montserrat y MuseoModerno.
+- [assets/](assets/) — fotografías, logotipo, monograma, favicon, tipografías, galerías y video.
+- [documentos/](documentos/) — documentos Word y PDF del proyecto.
+- [design-tokens.json](design-tokens.json) — valores del sistema de diseño.
+- [herramientas/](herramientas/) — herramientas de conversión de los documentos.
 
-```bash
-python3 -m pip install -r herramientas/requirements.txt
-python3 herramientas/convertir_y_construir.py
-```
+## Cómo verlo localmente
 
-El script lee los Word, conserva encabezados, párrafos y tablas en Markdown, y construye `design.html` con ese contenido y ejemplos de interfaz. Los tokens complementarios se declaran en el script. El portafolio existente se conserva: su estructura y contenido están documentados en CV.md; los cambios posteriores de arquitectura se aplican a index.html y app.js.
-
-Los documentos definen el contenido del portafolio y las reglas generales de identidad de Mimi. La guía visual es una página independiente, sin navegación lateral, con seis bloques visuales y ejemplos de uso.
-
-## Vista previa
-
-No requiere framework ni compilación para visitar las páginas.
+Desde la carpeta del proyecto, inicia un servidor local:
 
 ```bash
 python3 -m http.server 4173
 ```
 
-Abrir `http://localhost:4173/` y `http://localhost:4173/design.html`.
+Después visita:
 
-## Publicar en GitHub Pages
+- Portafolio: `http://localhost:4173/`
+- Sistema de diseño: `http://localhost:4173/design.html`
 
-1. Subir el contenido de esta carpeta a la raíz de un repositorio propio, conservando `assets` y sus subcarpetas.
-2. En Settings → Pages, seleccionar Deploy from a branch, la rama principal y la carpeta raíz.
-3. Al terminar la publicación, el portafolio estará en la dirección base del repositorio y el sistema en esa misma dirección seguida de `/design.html`.
-4. Verificar navegación, imágenes, documentos y reproducción del video desde la URL publicada.
+## Accesibilidad
 
-Los enlaces son relativos: funcionan en un repositorio de proyecto sin escribir un nombre de usuario de GitHub en el código.
+Las páginas incluyen controles con nombres accesibles, textos alternativos en las imágenes y navegación por teclado. Las fichas de proyectos tienen un botón de cierre y admiten la tecla Escape. Los loops y la estela del cursor respetan la preferencia de movimiento reducido; la estela no bloquea los clics y se desactiva en dispositivos táctiles.
 
-## Tecnología y recursos
-
-HTML, CSS y JavaScript locales. MuseoModerno y Montserrat se sirven desde `assets`. El video ICEE y las fotografías se incluyen en la carpeta. Las marcas de los proyectos se muestran como parte del portafolio; los ejercicios académicos no implican encargos o afiliaciones oficiales.
-
+El sistema de diseño incluye recomendaciones sobre tamaños de texto, contraste y áreas de al menos 44 × 44 píxeles para controles táctiles.
