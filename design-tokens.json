@@ -1,0 +1,111 @@
+{
+  "colors": {
+    "magenta": "#FF0097",
+    "cyan": "#00B4E9",
+    "yellow": "#FFE000",
+    "ink": "#121212",
+    "white": "#FFFFFF",
+    "readingBlue": "#006FAE",
+    "softSurface": "#ECF5FC",
+    "projectReadingBlue": "#006EB1",
+    "projectCaptionSurface": "#EDF5FC"
+  },
+  "typography": {
+    "heading": {
+      "family": "MuseoModerno",
+      "weight": 600
+    },
+    "body": {
+      "family": "Montserrat",
+      "weight": 500
+    },
+    "bodySize": "clamp(17px, 1.45vw, 27px)",
+    "bodyLineHeight": 1.45,
+    "cardName": "clamp(22px, 7.5cqi, 36px)",
+    "cardDescription": "clamp(15px, 5cqi, 24px)",
+    "projectTitle": {
+      "family": "MuseoModerno",
+      "weight": 500,
+      "size": "clamp(26px,3vw,42px)",
+      "lineHeight": "normal"
+    },
+    "projectBody": {
+      "family": "Montserrat",
+      "weight": 500,
+      "size": 14,
+      "lineHeight": 1.75
+    },
+    "projectCaption": {
+      "family": "Montserrat",
+      "weight": 500,
+      "size": [
+        10,
+        11
+      ],
+      "lineHeight": "normal"
+    }
+  },
+  "space": [
+    4,
+    8,
+    12,
+    16,
+    24,
+    32,
+    48,
+    64,
+    96
+  ],
+  "radius": {
+    "card": 20,
+    "image": 15,
+    "heroPhoto": 26,
+    "mobileCard": 17,
+    "mobileImage": 12,
+    "circle": "50%"
+  },
+  "shadow": {
+    "x": 4,
+    "y": 6,
+    "blur": 10,
+    "color": "rgba(0,0,0,0.20)"
+  },
+  "layout": {
+    "maxWidth": 1600,
+    "desktopMargin": "5%",
+    "mobileMargin": "6%",
+    "breakpoints": [
+      380,
+      760,
+      1200
+    ],
+    "guideMaxWidth": 1440
+  },
+  "motion": {
+    "ribbonSpeed": 28,
+    "unit": "SVG units per second",
+    "reducedMotion": "stop",
+    "cursor": {
+      "colors": [
+        "#FF0097",
+        "#FFE000",
+        "#00B4E9"
+      ],
+      "size": [
+        8,
+        16
+      ],
+      "intervalMs": 35,
+      "minDistancePx": 10,
+      "durationMs": 650,
+      "maxParticles": 24,
+      "touch": false,
+      "reducedMotion": false,
+      "guideDemo": "only inside asterisk preview"
+    }
+  },
+  "accessibility": {
+    "recommendedBodyMinimumPx": 16,
+    "recommendedTouchTargetPx": 44
+  }
+}
