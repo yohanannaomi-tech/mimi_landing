@@ -2,20 +2,18 @@
 
 Portafolio de Yohanan Naomi Zúñiga Jiménez y sistema de diseño de su marca personal.
 
-## Dos páginas independientes
+## Páginas publicadas
 
-- `index.html`: landing del CV y portafolio, con sus proyectos, Sobre mí y contacto.
-- `design.html`: landing del sistema de diseño, con paleta, tipografía, composición, sombras, formas, componentes y reglas.
+- [Landing del CV](https://yohanannaomi-tech.github.io/mimi_landing/)
+- [Sistema de diseño](https://yohanannaomi-tech.github.io/mimi_landing/design.html)
 
-Ambas páginas comparten recursos de marca. La guía no forma parte de las secciones del portafolio.
+## Documentos
 
-## Documentos de la entrega
-
-- `documentos/CV.docx`: arquitectura de información y contenido del portafolio.
-- `documentos/DESIGN.docx`: descripción del sistema de diseño.
-- `CV.md`: conversión de la arquitectura a Markdown.
-- `DESIGN.md`: conversión del sistema a Markdown y tokens técnicos.
-- `design-tokens.json`: valores del sistema en formato reutilizable.
+- [CV.md](CV.md)
+- [DESIGN.md](DESIGN.md)
+- [Arquitectura del CV (Word)](documentos/CV.docx)
+- [Sistema de diseño (Word)](documentos/DESIGN.docx)
+- [Tokens del sistema de diseño (JSON)](design-tokens.json)
 
 ## Documento a Markdown y guía visual
 
